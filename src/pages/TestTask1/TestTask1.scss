@@ -1,0 +1,62 @@
+.test-task-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  input[type='text'] {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: 2px solid #ccc;
+    border-radius: 0.25rem;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+
+    &:focus {
+      border-color: #00cc7e;
+    }
+  }
+
+  div {
+    margin: 5px;
+  }
+  button {
+    margin: 0 1rem 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: #007246;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: #00cc7e;
+    }
+  }
+
+  span {
+    font-size: 2rem;
+  }
+
+  .Link {
+    margin-top: 3rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: #007246;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: #00cc7e;
+    }
+  }
+}
