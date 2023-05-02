@@ -1,0 +1,30 @@
+.app {
+  min-height: 100vh;
+  height: 100%;
+  width: 1440px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: 'Inter', sans-serif;
+  color: #e4e5ea;
+
+  position: relative;
+  background: radial-gradient(
+    238.53% 189.02% at 3.2% 3.49%,
+    rgba(255, 246, 233, 0.1) 0%,
+    rgba(26, 29, 35, 0.1) 26.62%,
+    rgba(26, 29, 35, 0.1) 52.1%,
+    rgba(26, 29, 35, 0.01) 70.17%,
+    rgba(26, 29, 35, 0) 100%
+  );
+
+  backdrop-filter: blur(7.5px);
+}
+
+@media only screen and (min-width: 768px) {
+  .app {
+    background: none;
+  }
+}
