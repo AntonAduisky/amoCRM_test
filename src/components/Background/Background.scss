@@ -1,0 +1,140 @@
+.ball {
+  position: absolute;
+  border-radius: 50%;
+
+  &-purple {
+    width: 40px;
+    height: 40px;
+    left: 300px;
+    top: 290px;
+
+    background: radial-gradient(
+      64% 64% at 27.25% 26.5%,
+      rgba(236, 208, 255, 0.64) 0%,
+      rgba(161, 93, 207, 0.24) 59.67%,
+      rgba(118, 49, 164, 0.208) 78.59%,
+      rgba(86, 24, 128, 0.232) 100%
+    );
+    box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+
+    filter: blur(9px);
+  }
+
+  &-red {
+    width: 43px;
+    height: 43px;
+    left: 31px;
+    top: 460px;
+
+    background: radial-gradient(
+      64% 64% at 27.25% 26.5%,
+      rgba(255, 208, 208, 0.536) 0%,
+      rgba(212, 93, 93, 0.264) 59.67%,
+      rgba(167, 49, 49, 0.248) 78.59%,
+      rgba(130, 25, 25, 0.248) 100%
+    );
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+
+    filter: blur(6px);
+  }
+
+  &-red2 {
+    display: none;
+    width: 28px;
+    height: 28px;
+    left: 59%;
+    top: 56%;
+
+    background: radial-gradient(
+      64% 64% at 27.25% 26.5%,
+      rgba(255, 208, 208, 0.48) 0%,
+      rgba(212, 93, 93, 0.248) 59.67%,
+      rgba(167, 49, 49, 0.264) 78.59%,
+      rgba(130, 25, 25, 0.232) 100%
+    );
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    filter: blur(2.5px);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .ball {
+    &-purple {
+      width: 60px;
+      height: 60px;
+      left: 60.5%;
+      top: -0.2%;
+
+      filter: blur(3px);
+    }
+
+    &-red {
+      width: 83px;
+      height: 83px;
+      left: 36%;
+      top: 8.5%;
+
+      filter: blur(0);
+    }
+
+    &-red2 {
+      display: block;
+    }
+  }
+}
+
+.light {
+  position: absolute;
+  opacity: 0.5;
+  filter: blur(159px);
+  border-radius: 50%;
+  z-index: -1;
+
+  &-purple {
+    width: 259px;
+    height: 259px;
+    left: 258px;
+    top: 107px;
+    background-color: #833ab4;
+  }
+
+  &-red {
+    width: 211px;
+    height: 210px;
+    left: -55px;
+    top: 241px;
+
+    background: #961a1a;
+  }
+
+  &-yellow {
+    width: 200px;
+    height: 200px;
+    left: -66px;
+    top: 519px;
+
+    background: #fcb045;
+
+    opacity: 0.4;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .light {
+    &-purple {
+      left: 602px;
+      top: -154px;
+    }
+
+    &-red {
+      width: 311px;
+      height: 311px;
+      left: -102px;
+      top: 251px;
+    }
+
+    &-yellow {
+      display: none;
+    }
+  }
+}

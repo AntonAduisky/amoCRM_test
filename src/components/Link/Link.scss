@@ -1,0 +1,85 @@
+.link {
+    font-family: "Inter", sans-serif;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.iconLink {
+    margin-left: 1px;
+    margin-right: 0.8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    & > img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .iconLink {
+        margin: 0;
+        margin-left: 10px;
+    }
+}
+
+
+.footer__link {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 17px;
+
+    &Item {
+        list-style-type: none;
+    
+        margin: 0;
+        margin-bottom: 0.5rem;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .footer__link {
+        font-size: 1rem;
+        line-height: 19px;
+    }
+}
+
+.headerLink {
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .headerLink {
+        text-transform: none;
+        font-size: 1rem;
+    }
+}
+
+.phoneLink {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 19px;
+
+    display: block;
+    margin: 0;
+    margin-bottom: 0.6rem;
+}
+
+@media only screen and (min-width: 1024px) {
+    .phoneLink {
+        margin-bottom: 1.4rem;
+    }
+}

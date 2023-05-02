@@ -1,0 +1,59 @@
+.listItem {
+  list-style: none;
+  text-align: right;
+
+  width: 8.4375rem;
+  
+  &_mobile {
+    text-align: start;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 0.8125rem;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #e4e5ea;
+  
+    list-style: none;
+  
+    position: relative;
+  
+    min-width: 7.125rem;
+  
+    margin-bottom: 0.875rem;
+    padding-left: 0.9375rem;
+    margin-right: 0.625rem;
+
+    &::before {
+      content: " ";
+      height: 1px;
+      width: 10px;
+      background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+    
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }    
+  }
+
+  &__title {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 22px;
+  
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  
+    margin: 0;
+    margin-bottom: 0.3125rem;
+  }
+
+  &__description {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 20px;
+  }
+}

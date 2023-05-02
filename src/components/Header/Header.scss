@@ -1,0 +1,141 @@
+.header {
+  width: 100%;
+  height: 3.4375rem;
+  padding: 1.25rem 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #0e1014;
+  z-index: 999;
+
+  position: fixed;
+
+  &__leftSide {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__rightSide {
+    display: none;
+
+    margin-top: 2px;
+
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 19.2rem;
+
+    & > .phoneLink {
+      margin: 0;
+    }
+
+    & > .socialLinks {
+      display: flex;
+      justify-content: space-between;
+      flex: 1;
+      max-width: 7.5rem;
+
+      margin: 0;
+
+      & > a {
+        margin: 0;
+      }
+    }
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+  }
+}
+
+.logo {
+  width: 100%;
+  max-width: 12rem;
+  display: none;
+
+  &__text {
+    display: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 0.625rem;
+    line-height: 12px;
+    color: rgba(228, 229, 234, 1);
+    max-width: 8.75rem;
+  }
+}
+
+.header__link_desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 425px) {
+  .header__link_desktop {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .header {
+    position: static;
+    background-color: transparent;
+    height: auto;
+
+    &__leftSide {
+      max-width: 75rem;
+      align-items: flex-start;
+      justify-content: space-between;
+      max-width: 43.4375rem;
+    }
+
+    &__links {
+      margin-top: 5px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .logo__img {
+    margin-bottom: 0.625rem;
+  }
+
+  .logo__text {
+    display: block;
+  }
+
+  .header {
+    padding-top: 3.7rem;
+    padding-bottom: 0;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .header {
+    padding: 0;
+    padding-top: 3.7rem;
+    max-width: 71.25rem;
+
+    &__rightSide {
+      display: flex;
+    }
+  }
+}
