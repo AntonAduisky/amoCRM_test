@@ -1,5 +1,7 @@
 # Тестовое задание amoCRM
 
+# [DEMO](https://antonaduisky.github.io/amo_test/)
+
 ## Используемые технологии
 
 - [figma task2](https://www.figma.com/file/ja6QtJ9gv2JuxSDIAClL1O/Welbex?type=design&node-id=0-1&t=g13LjIA7s3wRjIVm-0)
