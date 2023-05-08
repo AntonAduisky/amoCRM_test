@@ -1,6 +1,6 @@
 # Тестовое задание amoCRM
 
-# [DEMO](https://antonaduisky.github.io/amo_test/)
+# [DEMO](https://antonaduisky.github.io/amo_task/)
 
 ## Используемые технологии
 
