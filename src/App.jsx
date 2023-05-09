@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 import HomePage from './pages/HomePage/HomePage';
-import TestTask1 from './pages/TestTask1/TestTask1';
-import TestTask2 from './pages/TestTask2/TestTask2';
+import TimerPage from './pages/TimerPage/TimerPage';
+import ResponsivePage from './pages/ResponsivePage/ResponsivePage';
 
 import './App.css';
 
@@ -13,8 +13,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/test-task-1" element={<TestTask1 />} />
-          <Route path="/test-task-2" element={<TestTask2 />} />
+          <Route path="/test-task-1" element={<TimerPage />} />
+          <Route path="/test-task-2" element={<ResponsivePage />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>

@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 import Background from '../../components/Background/Background';
 
-import './TestTask1.scss';
+import './TimerPage.scss';
 
-function TestTask1() {
+function TimerPage() {
   const [seconds, setSeconds] = useState(0);
   const [inputValue, setInputValue] = useState('');
   const intervalRef = useRef();
@@ -64,4 +64,4 @@ function TestTask1() {
   );
 }
 
-export default TestTask1;
+export default TimerPage;

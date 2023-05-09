@@ -8,7 +8,7 @@ import Footer from '../../components/Footer/Footer';
 
 import Background from '../../components/Background/Background';
 
-function TestTask2() {
+function ResponsivePage() {
   return (
     <div className="app">
       <Header />
@@ -26,4 +26,4 @@ function TestTask2() {
   );
 }
 
-export default TestTask2;
+export default ResponsivePage;
