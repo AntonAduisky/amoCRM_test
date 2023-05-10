@@ -1,8 +1,8 @@
 {
-  "name": "amo_test",
+  "name": "amo_task",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://antonaduisky.github.io/amo_test/",
+  "homepage": "https://antonaduisky.github.io/amo_task/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
