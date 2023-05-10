@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/amo_test/static/css/main.b907361b.css",
-    "main.js": "/amo_test/static/js/main.4de32316.js",
-    "static/media/logo_welbex.svg": "/amo_test/static/media/logo_welbex.2e08d1bd108cb8b2aee116b1817d851e.svg",
-    "static/media/wa.svg": "/amo_test/static/media/wa.42088da2e5cdc5ef68593c4fe16e0bc3.svg",
-    "static/media/vb.svg": "/amo_test/static/media/vb.197e093d2628608efd0d66711a18bfdc.svg",
-    "index.html": "/amo_test/index.html",
-    "static/media/tg.svg": "/amo_test/static/media/tg.b2afac6e3c94eec4775ef51d51af41f9.svg",
-    "main.b907361b.css.map": "/amo_test/static/css/main.b907361b.css.map",
-    "main.4de32316.js.map": "/amo_test/static/js/main.4de32316.js.map"
+    "main.css": "/amo_task/static/css/main.b907361b.css",
+    "main.js": "/amo_task/static/js/main.3103abda.js",
+    "static/media/logo_welbex.svg": "/amo_task/static/media/logo_welbex.2e08d1bd108cb8b2aee116b1817d851e.svg",
+    "static/media/wa.svg": "/amo_task/static/media/wa.42088da2e5cdc5ef68593c4fe16e0bc3.svg",
+    "static/media/vb.svg": "/amo_task/static/media/vb.197e093d2628608efd0d66711a18bfdc.svg",
+    "index.html": "/amo_task/index.html",
+    "static/media/tg.svg": "/amo_task/static/media/tg.b2afac6e3c94eec4775ef51d51af41f9.svg",
+    "main.b907361b.css.map": "/amo_task/static/css/main.b907361b.css.map",
+    "main.3103abda.js.map": "/amo_task/static/js/main.3103abda.js.map"
   },
   "entrypoints": [
     "static/css/main.b907361b.css",
-    "static/js/main.4de32316.js"
+    "static/js/main.3103abda.js"
   ]
 }
